@@ -4,9 +4,11 @@ To build:
 
 To set up host system with volume:
 
-`# mkdir -p /storage`
-`# chown nobody:nogroup /storage`
-`# chmod a+rw /storage`
+```
+# mkdir -p /storage
+# chown nobody:nogroup /storage`
+# chmod a+rw /storage`
+```
 
 To run:
 
