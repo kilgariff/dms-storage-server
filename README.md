@@ -12,4 +12,4 @@ To set up host system with volume:
 
 To run:
 
-`# docker run -d -p 137-139:137-139/tcp -p 137-139:137-139/udp -v /storage:/storage --name storage <image id>`
+`# docker run -d -p 137-139:137-139/tcp -p 137-139:137-139/udp -v /storage:/storage --restart always --name storage <image id>`
